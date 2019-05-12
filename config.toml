@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "ko-KR"
 title = "My New Hugo Site"
 
-theme = "hello-programmer"
+theme = "hugo-hello-programmer-theme"
 
 paginate = 2
 
