@@ -1,0 +1,3 @@
+[submodule "themes/hugo-hello-programmer-theme"]
+	path = themes/hugo-hello-programmer-theme
+	url = https://github.com/ReU4752/hugo-hello-programmer-theme.git
