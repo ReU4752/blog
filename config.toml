@@ -1,3 +1,14 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "ko-KR"
 title = "My New Hugo Site"
+
+theme = "hello-programmer"
+
+paginate = 2
+
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[author]
+    name = "ReU"
+    email = "liyu4752@gmail.com"
