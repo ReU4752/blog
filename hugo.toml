@@ -1,0 +1,46 @@
+baseURL = 'https://example.org/'
+languageCode = 'ko-kr'
+defaultContentLanguage = 'ko'
+title = "Liiyuu blog"
+theme = 'rain-glass'
+
+[taxonomies]
+tag = 'tags'
+category = 'categories'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+  [[menu.main]]
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 30
+  [[menu.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 40
+
+[params]
+  description = 'Liiyuu blog'
+  [params.profile]
+    name = 'Liiyuu'
+    avatar = '/images/avatar-default.svg'
+    bio = 'programming'
+  [params.background]
+    image = '/images/rain-background.png'
+    raindropEnabled = true
