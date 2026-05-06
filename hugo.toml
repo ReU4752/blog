@@ -37,6 +37,9 @@ category = 'categories'
 
 [params]
   description = 'Liiyuu blog'
+  [params.categories]
+    maxDepth = 1
+    rootName = 'root'
   [params.profile]
     name = 'Liiyuu'
     avatar = '/images/avatar-default.svg'
