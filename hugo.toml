@@ -17,6 +17,10 @@ category = 'categories'
     endLevel = 4
     ordered = false
 
+[services]
+  [services.disqus]
+    shortname = 'liiyuu-blog'
+
 [menu]
   [[menu.main]]
     name = 'Home'
